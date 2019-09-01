@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.carousel .carousel-item{
+    height: 100vh;
+}
+
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    filter: brightness(50%);
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+
+.shift{
+    margin-right: 80px;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+
+.col-lg-1{
+    align-content: center;
+}
+.alo{
+    text-align:  center;
+}
+
+.lin h5{
+    text-align: center;
+    text-decoration: none;
+}
+
+.mob{
+    background: url("../images/mobile.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 150px;
+}
+
+.mod{
+    margin: auto;
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.50);
+    
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .mod {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.4);  
+    }
+  }
+
+.bt{
+    margin-top: 30px;
+}
+
+.colo{
+    background-color: rgba(0,0,0,0.9);
+}
+
+.don{
+    color: #fff;
+}
+
+.subs{
+    margin: auto;
+    width: 400px;
+}
+
+.page-footer{
+    margin-top: 30px;
+}
+
+.input-group-append button{
+    margin-left: 10px;
+    border: 2px solid white;
+}
